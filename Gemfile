@@ -47,6 +47,7 @@ group :development, :test do
   gem 'factory_bot_rails'
   gem 'better_errors'
   gem 'binding_of_caller'
+  gem 'capybara'
 end
 
 group :development do
