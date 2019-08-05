@@ -1,3 +1,35 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.hero {
+  height: 100vh;
+  background-image: url('https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg?cs=srgb&dl=bump-collaboration-colleagues-1068523.jpg&fm=jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.landingmenu {
+  text-align: center;
+  color: rbg(40, 40, 40);
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  width: 400px;
+  padding: 60px 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+// .landingmenu--header {
+//   text-shadow: 1px 1px #000;
+// }
+
+.homebutton {
+  width: 145px;
+}
